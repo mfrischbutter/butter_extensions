@@ -1,5 +1,7 @@
 library butter_extensions;
-import 'package:butter_extensions/butter_extensions.dart';
+
+export 'extensions.dart';
+
 /// A Calculator.
 class Calculator {
   /// Returns [value] plus 1.
