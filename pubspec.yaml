@@ -1,7 +1,7 @@
 name: butter_extensions
 description: Butter Extensions by Michael Frischbutter
 version: 0.0.1
-homepage: frischbutter.dev
+homepage: https://frischbutter.dev
 
 environment:
   sdk: ">=2.18.2 <3.0.0"
