@@ -35,6 +35,16 @@ class ExampleScreen extends StatelessWidget {
               color: Colors.red,
               child: const Text('1'),
             ).paddingAll(15.0),
+            // Instead of:
+            // Padding(
+            //   padding: const EdgeInsets.all(15),
+            //   child: Container(
+            //     padding: const EdgeInsets.symmetric(vertical: 15),
+            //     width: double.infinity,
+            //     color: Colors.red,
+            //     child: const Text('1'),
+            //   ),
+            // ),
             Container(
               padding: const EdgeInsets.symmetric(vertical: 15),
               width: double.infinity,

@@ -29,8 +29,8 @@ class ExampleScreen extends StatelessWidget {
             ).paddingAll(15.0),
             // Instead of:
             // Padding(
-	          //   padding: EdgeInsets.all(15),
-	          //   child:Container(
+            //   padding: const EdgeInsets.all(15),
+            //   child: Container(
             //     padding: const EdgeInsets.symmetric(vertical: 15),
             //     width: double.infinity,
             //     color: Colors.red,
