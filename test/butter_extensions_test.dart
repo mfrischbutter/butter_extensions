@@ -24,7 +24,7 @@ void main() {
     });
   });
 
-  group('iterables', () {
+  group('iterable', () {
     test('groupBy empty list', () {
       expect([].groupBy((a) => a.key), {});
     });

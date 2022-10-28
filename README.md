@@ -55,12 +55,19 @@ class ExampleScreen extends StatelessWidget {
 
 ## Features
 
-| Extension          | on                                                                  | Description                                |
-| ------------------ | ------------------------------------------------------------------- | ------------------------------------------ |
-| `paddingAll`       | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.all()` to any widget       |
-| `paddingOnly`      | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.only()` to any widget      |
-| `paddingFromLTRB`  | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.fromLTRB()` to any widget  |
-| `paddingSymmetric` | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.symmetric()` to any widget |
+| Extension             | on                                                                        | Description                                |
+| --------------------- | ------------------------------------------------------------------------- | ------------------------------------------ |
+| `paddingAll`          | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)       | Add `EdgeInsets.all()` to any widget       |
+| `paddingOnly`         | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)       | Add `EdgeInsets.only()` to any widget      |
+| `paddingFromLTRB`     | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)       | Add `EdgeInsets.fromLTRB()` to any widget  |
+| `paddingSymmetric`    | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)       | Add `EdgeInsets.symmetric()` to any widget |
+| `fahrenheitToCelcius` | [double](https://api.flutter.dev/flutter/dart-core/double-class.html)     |                                            |
+| `celciusToFahrenheit` | [double](https://api.flutter.dev/flutter/dart-core/double-class.html)     |                                            |
+| `groupBy`             | [Iterable](https://api.flutter.dev/flutter/dart-core/Iterable-class.html) |                                            |
+| `sum`                 | [Iterable](https://api.flutter.dev/flutter/dart-core/Iterable-class.html) |                                            |
+| `lenghtBetween`       | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
+| `maxLength`           | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
+| `minLength`           | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
 
 ## Known issues
 

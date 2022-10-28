@@ -4,7 +4,7 @@ DA:3,3
 LF:2
 LH:2
 end_of_record
-SF:lib/extensions/iterables.dart
+SF:lib/extensions/iterable.dart
 DA:4,2
 DA:5,1
 DA:6,1
