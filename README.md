@@ -1,39 +1,62 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Butter Extensions
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+butter_extensions aims to make your life as a developer easier and help you avoid a lot of boilerplate code.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use this package, add `butter_extensions` to your `pubspec.yaml`.
+
+### Example
 
 ```dart
-const like = 'sample';
+class ExampleScreen extends StatelessWidget {
+  const ExampleScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              width: double.infinity,
+              color: Colors.red,
+              child: const Text('1'),
+            ).paddingAll(15.0),
+            // Instead of:
+            // Padding(
+	        //   padding: EdgeInsets.all(15),
+	        //   child:Container(
+            //     padding: const EdgeInsets.symmetric(vertical: 15),
+            //     width: double.infinity,
+            //     color: Colors.red,
+            //     child: const Text('1'),
+            //   ),
+            // ),
+            Container(
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              width: double.infinity,
+              color: Colors.blue,
+              child: const Text('2'),
+            ).paddingAll(15.0),
+          ],
+        ),
+      ),
+    );
+  }
+}
 ```
 
-## Additional information
+## Features
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+| Extension          | on                                                                  | Description                                |
+| ------------------ | ------------------------------------------------------------------- | ------------------------------------------ |
+| `paddingAll`       | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.all()` to any widget       |
+| `paddingOnly`      | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.only()` to any widget      |
+| `paddingFromLTRB`  | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.fromLTRB()` to any widget  |
+| `paddingSymmetric` | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) | Add `EdgeInsets.symmetric()` to any widget |
+
+## Known issues
+
+- Auto-Import is currently not working in Visual Studio Code (`ctrl+space`)
