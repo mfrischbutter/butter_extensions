@@ -15,14 +15,6 @@ void main() {
       expect(a.hashCode, isNot(c.hashCode));
     });
   });
-  group('double', () {
-    test('celsiusToFahrenheit', () {
-      expect(100.0.celsiusToFahrenheit(), 212.0);
-    });
-    test('fahrenheitToCelcius', () {
-      expect(100.0.fahrenheitToCelsius(), closeTo(37.77, 0.01));
-    });
-  });
 
   group('iterable', () {
     test('groupBy empty list', () {

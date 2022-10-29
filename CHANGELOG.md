@@ -1,3 +1,7 @@
+## 0.0.3
+
+- Removed `fahrenheitToCelcius` and `celciusToFahrenheit`
+
 ## 0.0.2
 
 - Added Tests
