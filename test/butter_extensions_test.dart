@@ -86,10 +86,10 @@ void main() {
       expect('test'.lengthBetween(0, 5), true);
     });
     test('minLength', () {
-      expect(''.minLenght(0), true);
-      expect('test'.minLenght(0), true);
-      expect('test'.minLenght(4), true);
-      expect('test'.minLenght(5), false);
+      expect(''.minLength(0), true);
+      expect('test'.minLength(0), true);
+      expect('test'.minLength(4), true);
+      expect('test'.minLength(5), false);
     });
 
     test('maxLength', () {

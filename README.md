@@ -63,7 +63,7 @@ class ExampleScreen extends StatelessWidget {
 | `paddingSymmetric` | [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)       | Add `EdgeInsets.symmetric()` to any widget |
 | `groupBy`          | [Iterable](https://api.flutter.dev/flutter/dart-core/Iterable-class.html) |                                            |
 | `sum`              | [Iterable](https://api.flutter.dev/flutter/dart-core/Iterable-class.html) |                                            |
-| `lenghtBetween`    | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
+| `lengthBetween`    | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
 | `maxLength`        | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
 | `minLength`        | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
 

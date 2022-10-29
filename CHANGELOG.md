@@ -10,8 +10,8 @@
 - Added `groupBy` extension on `Iterable<E>`
 - Added `sum` extension on `Iterable<E extends num>`
 - Added `lengthBetween` extension on `String`
-- Added `minLenght` extension on `String`
-- Added `maxLenght` extension on `String`
+- Added `minLength` extension on `String`
+- Added `maxLength` extension on `String`
 
 ## 0.0.1
 

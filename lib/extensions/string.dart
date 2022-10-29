@@ -5,7 +5,7 @@ extension ButterStringValidator on String {
   }
 
   /// Returns true if the string length is smaller than or equals the given value
-  bool minLenght(int min) {
+  bool minLength(int min) {
     return length >= min;
   }
 
