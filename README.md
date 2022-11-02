@@ -1,6 +1,7 @@
 # Butter Extensions
 
 [![pub package](https://img.shields.io/pub/v/butter_extensions.svg)](https://pub.dev/packages/butter_extensions) <a  href="https://github.com/mfrischbutter/butter_extensions/actions"><img  src="https://github.com/mfrischbutter/butter_extensions/workflows/flutter-tests/badge.svg"  alt="Build Status"></a>
+
 butter_extensions aims to make your life as a developer easier and help you avoid a lot of boilerplate code.
 
 ## Usage
