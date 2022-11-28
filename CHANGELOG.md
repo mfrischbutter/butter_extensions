@@ -2,6 +2,13 @@
 
 - Removed `fahrenheitToCelcius` and `celciusToFahrenheit`
 
+## 0.0.3
+
+- Added `isToday` extension on `DateTime`
+- Added `isTomorrow` extension on `DateTime`
+- Added `isYesterday` extension on `DateTime`
+- Added Tests for DateTime extension
+
 ## 0.0.2
 
 - Added Tests
