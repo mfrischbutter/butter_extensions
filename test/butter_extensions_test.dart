@@ -132,4 +132,22 @@ void main() {
       );
     });
   });
+
+  group('datetime', () {
+    test('isToday', () {
+      expect(DateTime.now().isToday, true);
+      expect(DateTime.now().subtract(const Duration(days: 1)).isToday, false);
+    });
+
+    test('isYesterday', () {
+      expect(DateTime.now().isYesterday, false);
+      expect(
+          DateTime.now().subtract(const Duration(days: 1)).isYesterday, true);
+    });
+
+    test('isTomorrow', () {
+      expect(DateTime.now().isTomorrow, false);
+      expect(DateTime.now().add(const Duration(days: 1)).isTomorrow, true);
+    });
+  });
 }

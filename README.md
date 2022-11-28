@@ -66,6 +66,9 @@ class ExampleScreen extends StatelessWidget {
 | `lengthBetween`    | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
 | `maxLength`        | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
 | `minLength`        | [String](https://api.flutter.dev/flutter/dart-core/String-class.html)     |                                            |
+| `isToday`          | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) |                                            |
+| `isYesterday`      | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) |                                            |
+| `isTomorrow`       | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) |                                            |
 
 ## Known issues
 
