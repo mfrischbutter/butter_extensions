@@ -1,9 +1,10 @@
+## 0.0.4
+
+- Added `getRandString(int length)`
+
 ## 0.0.3
 
 - Removed `fahrenheitToCelcius` and `celciusToFahrenheit`
-
-## 0.0.3
-
 - Added `isToday` extension on `DateTime`
 - Added `isTomorrow` extension on `DateTime`
 - Added `isYesterday` extension on `DateTime`
