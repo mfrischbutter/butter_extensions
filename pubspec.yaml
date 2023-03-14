@@ -1,6 +1,6 @@
 name: butter_extensions
 description: Butter Extensions aims to make your life as a developer easier and help you avoid a lot of boilerplate code.
-version: 0.0.4
+version: 0.0.5
 homepage: https://frischbutter.dev
 
 environment:
