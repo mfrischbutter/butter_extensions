@@ -1,3 +1,7 @@
+## 0.0.5
+
+- Added `applyTime` extension on `DateTime`
+
 ## 0.0.4
 
 - Added `getRandString(int length)`

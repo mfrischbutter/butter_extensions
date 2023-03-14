@@ -17,4 +17,8 @@ extension ButterDateTime on DateTime {
         yesterday.month == month &&
         yesterday.year == year;
   }
+
+  DateTime applyTime({required int hour, required int minute}) {
+    return DateTime(year, month, day, hour, minute);
+  }
 }

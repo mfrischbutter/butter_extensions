@@ -69,11 +69,8 @@ class ExampleScreen extends StatelessWidget {
 | `isToday`          | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) |                                            |
 | `isYesterday`      | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) |                                            |
 | `isTomorrow`       | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) |                                            |
+| `applyTime`       | [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) | Set the time of the DateTime Object |
 
 | Function        | params       | Description                 |
 | --------------- | ------------ | --------------------------- |
 | `getRandString` | (int length) | Generate random hash string |
-
-## Known issues
-
-- Auto-Import is currently not working in Visual Studio Code (`ctrl+space`)
